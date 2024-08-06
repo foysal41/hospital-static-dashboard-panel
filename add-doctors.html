@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h2>Doctors <small>create & edit doctor</small></h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="first-name">First Name *</label>
+                            <input type="text" class="form-control" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="middle-name">Middle Name *</label>
+                            <input type="text" class="form-control" id="middle-name" name="middle-name" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="last-name">Last Name *</label>
+                            <input type="text" class="form-control" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="email">Email (User Name) *</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="password">Password *</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label>Status *</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="active" name="status" value="active" checked>
+                                <label class="form-check-label" for="active">Active</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="inactive" name="status" value="inactive">
+                                <label class="form-check-label" for="inactive">Inactive</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <button type="submit" class="btn btn-success">Save</button>
+                            <button type="reset" class="btn btn-info">Reset</button>
+                            <button type="button" class="btn btn-danger">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

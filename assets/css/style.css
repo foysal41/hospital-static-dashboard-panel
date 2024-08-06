@@ -2,19 +2,8 @@ body {
     background-color: #f8f9fa;
   
 }
-.card {
-    margin-bottom: 1.5rem;
-    color: white;
-}
-.card i {
-    font-size: 2rem;
-}
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .bg-doctors { background-color: #17a2b8; }
 .bg-nurse { background-color: #dc3545; }
 .bg-pharmacist { background-color: #28a745; }
@@ -23,9 +12,9 @@ body {
 .bg-patient { background-color: #ffc107; }
 .bg-medicines { background-color: #20c997; }
 .bg-beds { background-color: #007bff; }
+
 .breadcrumb {
     background: none;
     margin-bottom: 0;
 }
-
 
