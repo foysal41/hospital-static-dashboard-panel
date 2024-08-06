@@ -12,37 +12,33 @@
             <div class="card-header">
                 <h2>Doctors <small>create & edit doctor</small></h2>
             </div>
-            <div class="card-body">
+            <div class="card-body py-4">
                 <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
+                    <div class="row">
+                        <div class="form-group col-md-6">
                             <label for="first-name">First Name *</label>
                             <input type="text" class="form-control" id="first-name" name="first-name" required>
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="middle-name">Middle Name *</label>
-                            <input type="text" class="form-control" id="middle-name" name="middle-name" required>
-                        </div>
-                        <div class="form-group col-md-4">
+                       
+                        <div class="form-group col-md-6">
                             <label for="last-name">Last Name *</label>
                             <input type="text" class="form-control" id="last-name" name="last-name" required>
                         </div>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
+                    <div class="row">
+                       
+                        <div class="form-group col-md-6">
+                            <label for="email">Email*</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+        
+                        <div class="form-group col-md-6">
                             <label for="phone">Phone *</label>
                             <input type="tel" class="form-control" id="phone" name="phone" required>
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="email">Email (User Name) *</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="password">Password *</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
+                       
                     </div>
-                    <div class="form-row">
+                    <div class="row">
                         <div class="form-group col-md-4">
                             <label>Status *</label><br>
                             <div class="form-check form-check-inline">
@@ -55,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div class="row">
                         <div class="form-group col-md-12">
                             <button type="submit" class="btn btn-success">Save</button>
                             <button type="reset" class="btn btn-info">Reset</button>
